@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+div#header1{
+	width: 100%;
+	height: 50px;
+	background-color: #75536C;
+	margin: 0 auto;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+}
+
+.logo{
+	text-align: center;
+	padding-top: 10px;
+}
+.logo a{
+	font-size: 1.7em;
+	color: #fff;
+}
+
+div#header2{
+	width: 100%;
+	height: 35px;
+	background-color: #75536C;
+	position: fixed;
+	top: 50px;
+	left: 0px;
+	right: 0px;
+}
+.logo2 {
+	text-align: center;
+	font-size: 1.3em;
+	color: #fff;
+}
+
+div#navbar{
+	position: fixed;
+	top: 85px;
+	left: 0px;
+	right: 0px;
+}
+
+div#navbar ul{
+	list-style-type:none;
+	margin-top:0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #75536C;
+}
+
+div#navbar li{
+	float:left;
+}
+
+div#navbar li:last-child{
+	border-right: none;
+}
+
+div#navbar li a {
+	display: block;
+	color:#FFF;
+	text-align: center;
+	padding:5px 16px 5px;
+	text-decoration:none;
+}
+
+div#navbar li a:hover:not(.active){
+	background-color: #FFF;
+	color: #75536C;
+	transition: 0.2s;
+}
+
+div#navbar li a.active {
+	background-color: #FFF;
+	font-weight: bold;
+	color: #75536C;
+}
+
+div#contents{
+	overflow: hidden;
+	text-align: center;
+	margin-top: 130px;
+	margin-left: 3%;
+	margin-right: 3%;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+
+div#contents .form table {
+	margin: 80px auto;
+	width: auto;
+}
+
+div#contents table{
+	margin: 0 auto;
+}
+
+div#contents .form .readonly{
+	background-color:#AAAAAA;
+}
+
+.content h2{
+	color: #d35400;
+}
+
+div#contents table th{
+	width: 150px;
+	background-color: #268425;
+	color: #171717;
+	font-size: 1.3em;
+	text-align: center;
+	padding: 0.3em;
+}
+
+div#contents table td{
+	width: 150px;
+	background-color: #FFFFF;
+	color: #171717;
+	font-size: 1.3em;
+	text-align: center;
+	padding: 0.3em;
+	border: 1px solid;
+}
+
+div#footer{
+	width: 100%;
+	height: 50px;
+	background-color: #75536C;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+div#footer p{
+	text-align:center;
+	padding-top: 10px;
+	font-size: 100%;
+	color:#fff;
+}
